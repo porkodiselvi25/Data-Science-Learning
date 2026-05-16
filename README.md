@@ -1,14 +1,13 @@
 ## Data-Science-Learning
 
-## about
-Learning and implementing Data Science concepts, tools, and projects during internship training.
+## About
+   Learning and implementing Data Science concepts, tools, and projects during internship training.
 
-## learning Goals
-
-1. Python Programming 
-2. Machine Learning 
-3. SQL
-4. Data science
+## Learning Goals
+   Python Programming 
+   Machine Learning 
+   SQL
+   Data science
 
 ## Repository Structure
    Data
@@ -18,5 +17,3 @@ Learning and implementing Data Science concepts, tools, and projects during inte
 ## Tools
    GitHub
    Visual Studio Code
-
-   
