@@ -17,5 +17,6 @@
 ## Tools
    GitHub
    jupyter notebook
+   Python
    anaconda
    Visual Studio Code
