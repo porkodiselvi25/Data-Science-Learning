@@ -11,6 +11,7 @@
 
 ## Repository Structure
    Data
+   Mini_Data_Cleaning_Project
    Notebooks
    Reports
 
