@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+CustomerID,Name,Age,City,Gender,Salary
+1,Porkodi,22,chennai,Female,25000
+2,Rahul,,Chennai,Male,30000
+3,Meena,21,CHENNAI,Female,28000
+4,Arjun,200,Madurai,Male,50000
+5,Divya,23,,Female,27000
+6,Porkodi,22,chennai,Female,25000
+7,Kavin,24,Coimbatore,Male,abc
+8,Nila,23,Trichy,female,29000
+9,Abi,-5,Salem,Male,32000
+=======
+CustomerID,Name,Age,City,Gender,Salary
+1,Porkodi,22,chennai,Female,25000
+2,Rahul,,Chennai,Male,30000
+3,Meena,21,CHENNAI,Female,28000
+4,Arjun,200,Madurai,Male,50000
+5,Divya,23,,Female,27000
+6,Porkodi,22,chennai,Female,25000
+7,Kavin,24,Coimbatore,Male,abc
+8,Nila,23,Trichy,female,29000
+9,Abi,-5,Salem,Male,32000
+>>>>>>> 18ae3b1 (Task 8 completed)
+10,John,25,  chennai  ,MALE,35000

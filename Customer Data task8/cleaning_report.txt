@@ -1,0 +1,15 @@
+DATA CLEANING REPORT
+-------------------------
+
+Rows after cleaning: 8
+
+Missing Values:
+CustomerID    0
+Name          0
+Age           0
+City          0
+Gender        0
+Salary        0
+dtype: int64
+
+Duplicate Rows Remaining: 0

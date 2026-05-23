@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+,CustomerID,Name,Age,City,Gender,Salary
+0,1,Porkodi,22.0,chennai,Female,25000.0
+1,2,Rahul,39.44444444444444,Chennai,Male,30000.0
+2,3,Meena,21.0,CHENNAI,Female,28000.0
+4,5,Divya,23.0,unknown,Female,27000.0
+5,6,Porkodi,22.0,chennai,Female,25000.0
+6,7,Kavin,24.0,Coimbatore,Male,31222.222222222223
+7,8,Nila,23.0,Trichy,female,29000.0
+9,10,John,25.0,chennai,MALE,35000.0
+=======
+,CustomerID,Name,Age,City,Gender,Salary
+0,1,Porkodi,22.0,chennai,Female,25000.0
+1,2,Rahul,39.44444444444444,Chennai,Male,30000.0
+2,3,Meena,21.0,CHENNAI,Female,28000.0
+4,5,Divya,23.0,unknown,Female,27000.0
+5,6,Porkodi,22.0,chennai,Female,25000.0
+6,7,Kavin,24.0,Coimbatore,Male,31222.222222222223
+7,8,Nila,23.0,Trichy,female,29000.0
+9,10,John,25.0,chennai,MALE,35000.0
+>>>>>>> 18ae3b1 (Task 8 completed)
