@@ -1,0 +1,81 @@
+1. Basic JOIN (Customers + Orders)
+Ravi	1
+Ravi	2
+Meena	3
+Arun	4
+-------------------------------------------
+
+2. Customer Order Details (JOIN multiple columns)
+Ravi	1	1	1	2026-05-01
+Ravi	2	2	2	2026-05-02
+Meena	3	3	1	2026-05-03
+Arun	4	2	3	2026-05-04
+-------------------------------------------
+
+3. Product Name Mapping (JOIN 3 tables)
+Ravi	Laptop	1	2026-05-01
+Ravi	Mouse	2	2026-05-02
+Meena	Keyboard	1	2026-05-03
+Arun	Mouse	3	2026-05-04
+-------------------------------------------
+
+4. Product-wise Revenue (Aggregation)
+Arun	1500.0
+Meena	1200.0
+Ravi	56000.0
+-------------------------------------------
+
+5. Monthly Revenue (GROUP BY month)
+2026-05	58700.0
+-------------------------------------------
+
+6. Product Performance (SUM by product)
+Keyboard	1200.0
+Laptop	55000.0
+Mouse	2500.0
+-------------------------------------------
+
+7. Top Customers (ORDER BY revenue)
+Ravi	56000.0
+Arun	1500.0
+Meena	1200.0
+-------------------------------------------
+
+8. Average Order Value (AVG)
+14675.0
+-------------------------------------------
+
+9. Customer Ranking (RANK window function)
+Ravi	56000.0	1
+Arun	1500.0	2
+Meena	1200.0	3
+-------------------------------------------
+
+10. Product Ranking (DENSE_RANK)
+Laptop	55000.0	1
+Mouse	2500.0	2
+Keyboard	1200.0	3
+-------------------------------------------
+
+11. Running Total Revenue (Window Function)
+2026-05-01	                   55000.0	55000.0
+2026-05-02	1000.0	56000.0
+2026-05-03	1200.0	57200.0
+2026-05-04	1500.0	58700.0
+-------------------------------------------
+
+12. Above Average Customers (Subquery)
+Arun	1500.0
+Meena	1200.0
+Ravi	56000.0
+-------------------------------------------
+
+13. Customer Retention (CTE)
+1	2026-05
+2	2026-05
+3	2026-05
+-------------------------------------------
+
+14. Above-average filter result
+Ravi	56000.0
+-------------------------------------------

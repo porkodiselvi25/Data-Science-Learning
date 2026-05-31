@@ -1,0 +1,46 @@
+output:
+SELECT * FROM customers;
+1	Ravi	Chennai
+2	Meena	Coimbatore
+3	Arun	Madurai
+----------------------
+
+SELECT * FROM customers WHERE city = "Chennai";
+1	Ravi	Chennai
+----------------------
+
+SELECT * FROM products ORDER BY price DESC;
+
+1	Laptop	55000.0
+3	Keyboard	1200.0
+2	Mouse	500.0
+----------------------
+
+SELECT customer_id, SUM(quantity) AS total_items
+FROM orders
+GROUP BY customer_id;
+
+1	3
+2	1
+3	3
+----------------------
+
+SELECT customer_id, SUM(quantity) AS total_items
+FROM orders
+GROUP BY customer_id
+HAVING total_items > 1;
+
+1	3
+3	3
+----------------------
+
+SELECT c.name, p.product_name, o.quantity
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+JOIN products p ON o.product_id = p.product_id;
+
+Ravi	Laptop	1
+Ravi	Mouse	2
+Meena	Keyboard	1
+Arun	Mouse	3
+----------------------
