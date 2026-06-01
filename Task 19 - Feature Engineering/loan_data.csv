@@ -1,0 +1,11 @@
+age,income,loan_amount,employment_type,application_date,remarks,Loan_Default
+25,35000,100000,Salaried,2025-01-15,Need loan for education,0
+40,70000,200000,Business,2025-02-10,Business expansion loan,0
+30,45000,150000,Salaried,2025-03-05,Personal expenses,1
+50,90000,250000,Self-Employed,2025-01-20,Medical emergency,0
+35,50000,180000,Business,2025-04-12,Home renovation,1
+28,38000,120000,Salaried,2025-05-01,Need quick approval,0
+45,80000,220000,Self-Employed,2025-03-18,Equipment purchase,1
+32,55000,160000,Business,2025-02-25,Working capital,0
+29,42000,130000,Salaried,2025-04-08,Family expenses,1
+38,65000,190000,Business,2025-05-15,Office setup,0

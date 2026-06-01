@@ -1,0 +1,18 @@
+Feature,Type
+age,Numeric
+income,Numeric
+loan_amount,Numeric
+employment_type,Categorical
+application_date,Datetime
+Loan_Default,Target
+income_to_loan_ratio,Engineered Numeric
+loan_per_income,Engineered Numeric
+employment_type_encoded,Encoded Categorical
+application_year,Datetime
+application_month,Datetime
+application_day,Datetime
+application_weekday,Datetime
+remarks_length,Text
+word_count,Text
+age_group,Binning
+age_income_interaction,Interaction
