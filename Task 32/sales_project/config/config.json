@@ -1,0 +1,4 @@
+{
+    data_path datasales_data.csv,
+    log_file logsapp.log
+}
