@@ -11,13 +11,11 @@
 
 ## Repository Structure
    Data
-   Mini_Data_Cleaning_Project
    Notebooks
    Reports
-
+   Tasks
 ## Tools
    GitHub
    jupyter notebook
    Python
    anaconda
-   Visual Studio Code
